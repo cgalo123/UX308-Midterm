@@ -1,5 +1,5 @@
 import { Text, View } from "react-native";
-import { fToC } from "./fToC.js";
+import { fToC } from "../fToC.js";
 
 export function FToC({ f }) {
   let c = fToC(f);

@@ -1,5 +1,5 @@
 import { Text, View } from "react-native";
-import { gymCost } from "./gymCost.js";
+import { gymCost } from "../gymCost.js";
 
 export function GymCost({ cost, friends }) {
   let total = gymCost(cost, friends);

@@ -1,5 +1,5 @@
 import { Text, View } from "react-native";
-import { cubeVolume } from "./cubeVolume.js";
+import { cubeVolume } from "../cubeVolume.js";
 
 export function CubeVolume({ heightM }) {
   let v = cubeVolume(heightM);

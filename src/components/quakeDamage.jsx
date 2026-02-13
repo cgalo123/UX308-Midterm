@@ -1,5 +1,5 @@
 import { Text, View } from "react-native";
-import { quakeDamage } from "./quakeDamage.js";
+import { quakeDamage } from "../quakeDamage.js";
 
 export function QuakeDamage({ intensity }) {
   let result = quakeDamage(intensity);

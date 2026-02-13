@@ -1,10 +1,9 @@
-import { View } from "react-native";
-
 import { CoinValue } from "./coinValue.jsx";
 import { FToC } from "./fToC.jsx";
 import { CubeVolume } from "./cubeVolume.jsx";
 import { GymCost } from "./gymCost.jsx";
 import { QuakeDamage } from "./quakeDamage.jsx";
+import { View } from "react-native";
 
 export default function App() {
   return (

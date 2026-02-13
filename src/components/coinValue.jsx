@@ -1,5 +1,5 @@
 import { Text, View } from "react-native";
-import { coinValue } from "./coinValue.js";
+import { coinValue } from "../coinValue.js";
 
 export function CoinValue({ nickels, dimes, quarters, loonies, toonies }) {
   let total = coinValue(nickels, dimes, quarters, loonies, toonies);
